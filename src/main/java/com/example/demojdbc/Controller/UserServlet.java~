@@ -39,6 +39,9 @@ public class UserServlet extends HttpServlet {
             case "delete":
                 deleteUserAction(req, resp);
                 break;
+            case "search":
+                searchUserAction(req, resp);
+                break;
             default:
                 showAllUser(req, resp);
                 break;
@@ -103,9 +106,6 @@ public class UserServlet extends HttpServlet {
                 break;
             case "edit":
                 updateUserAction(req, resp);
-                break;
-            case "search":
-                searchUserAction(req, resp);
                 break;
             default:
                 showAllUser(req, resp);

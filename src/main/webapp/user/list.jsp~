@@ -17,7 +17,7 @@
 <div>
     <div>
         <form action="/user?action=search" method="post">
-            <input type="text" name="keyword" PLACEHOLDER="Nhập từ khóa tìm kiếm ">
+            <input type="text" name="keyword" PLACEHOLDER="Nhập từ khóa tìm kiếm ..........">
             <input type="submit" value="Search">
         </form>
     </div>

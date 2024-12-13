@@ -17,5 +17,5 @@ public interface IUserService {
 
     public User getUserById(int id);
 
-    List<User> getUserByName(String keyword);
+    List<User> getUserByName(String name);
 }
